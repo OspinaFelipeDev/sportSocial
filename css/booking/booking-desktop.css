@@ -1,0 +1,69 @@
+:root {
+    --color-gray: #969BAB;
+    --color-secondary: #18191F;
+    --color-accent: #e74c3c;
+    --color-white: white;
+    --color-blue: #1947E5;
+    --color-blue-light: #2CC8F9;
+    --color-blue-join: #D6FCF7;
+    --color-orange: #F95A2C;
+    --color-pink: #FF89BB;
+    --color-hover: #a2203d
+}
+
+.container-name {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 10px 15px;
+    margin-bottom: 1rem;
+}
+
+.icono-volver {
+    font-size: 4.5rem; /* Tamaño adecuado */
+    color: var(--color-secondary);
+}
+
+#deporte-seleccionado {
+    font-size: 3.7rem;
+}
+
+.chat-icon-container img {
+    width: 50px; /* Ajusta el tamaño del icono */
+    height: auto;
+}
+
+.player-name {
+    font-size: 2.2rem;
+}
+
+.player-position span {
+    font-size: 2.2rem;
+}
+
+
+
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+}
+
+footer a button {
+    font-size: 3rem;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+}
+
+footer p {
+    font-size: 2.5rem;
+    max-width: 80%;
+    margin-bottom: 0.5rem;
+}

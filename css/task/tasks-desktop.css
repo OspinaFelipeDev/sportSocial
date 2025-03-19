@@ -1,0 +1,108 @@
+:root {
+    --color-gray: #969BAB;
+    --color-secondary: #18191F;
+    --color-accent: #e74c3c;
+    --color-white: white;
+    --color-blue: #1947E5;
+    --color-blue-light: #2CC8F9;
+    --color-blue-join: #D6FCF7;
+    --color-orange: #F95A2C;
+    --color-pink: #FF89BB;
+    --color-hover: #a2203d;
+    --color-back: #FFBD12
+}
+
+.container-name {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Distribuye los elementos en la línea */
+    width: 100%;
+    padding: 10px 15px;
+    background-color: var(--color-background); /* Ajusta el color de fondo según tu diseño */
+}
+
+.icono-volver {
+    font-size: 5rem;
+    color: var(--color-secondary);
+    cursor: pointer;
+}
+
+#deporte-seleccionado {
+    font-size: 5rem;
+    font-weight: 600;
+    text-align: center; /* Asegura que se vea centrado */
+    flex-grow: 1; /* Permite que el texto tome el espacio disponible */
+}
+
+.chat-icon-container img {
+    width: 55px;
+    height: 55px;
+}
+
+.container-name {
+    padding: 20px 30px;
+}
+
+.icono-volver {
+    font-size: 6rem;
+}
+
+#deporte-seleccionado {
+    font-size: 6rem;
+}
+
+.chat-icon-container img {
+    width: 65px;
+    height: 65px;
+}
+
+.asignar-tarea, #assigned-tasks {
+    width: 50%; /* Más ancho en desktop */
+    max-width: 800px; /* Más espacio */
+    padding: 20px;
+}
+
+.asignar-tarea h3 {
+    font-size: 3.5rem;
+}
+
+.asignar-tarea label, .asignar-tarea h4 {
+    font-size: 2.8rem;
+}
+
+#assigned-tasks h3 {
+    font-size: 3.5rem;
+}
+
+.custom-select {
+    padding: 12px;
+}
+
+.participant-select, .task-select {
+    font-size: 1.8rem;
+}
+
+button {
+    font-size: 2rem;
+    padding: 14px;
+}
+
+#tasks-list li {
+    font-size: 1.6rem;
+    padding: 12px;
+}
+
+.remove-task {
+    font-size: 22px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0;
+    border: none; /* Opcional: quitar bordes si los tiene */
+    background-color: var(--color-pink); /* O el color que prefieras */
+    color: var(--color-white); /* Asegura que la "X" sea visible */
+    cursor: pointer;
+}

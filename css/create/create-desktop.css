@@ -1,0 +1,65 @@
+:root {
+    --color-gray: #969BAB;
+    --color-secondary: #18191F;
+    --color-accent: #e74c3c; /* Rojo */
+    --color-white: white; /* Gris claro */
+    --color-blue: #1947E5;
+    --color-blue-light: #2CC8F9;
+    --color-blue-join: #D6FCF7;
+    --color-orange: #F95A2C;
+    --color-pink: #FF89BB;
+    --color-yellow: #FFBD12;
+}
+
+header {
+    display: flex;
+    align-items: center;  /* Centra verticalmente */
+    justify-content: center; /* Centra horizontalmente */
+    gap: 1rem; /* Espacio entre los elementos */
+    width: 100%;
+    padding: 1rem;
+    position: relative; /* Para posicionar el ícono sin afectar la imagen */
+}
+
+/* Ajuste del ícono de volver */
+.icono-volver {
+    position: absolute;
+    left: 5rem; /* Lo posiciona a la izquierda */
+    font-size: 5rem; /* Ajusta el tamaño */
+    color: var(--color-secondary);
+}
+
+header img {
+    max-width: 150px; /* Define el tamaño máximo */
+    height: 150px; /* Asegura que sea un círculo perfecto */
+    border-radius: 50%; /* Hace que la imagen sea redonda */
+    object-fit: cover; /* Evita deformaciones si la imagen no es cuadrada */
+}
+
+form h1 {
+    margin-left: 32.4rem;
+}
+
+.input-container input {
+    width: 550px;
+    margin-left: 205px;
+}
+
+.input-container i {
+    left: 230px;
+}
+
+.container svg {
+    margin-left: 205px;
+}
+
+main button {
+    width: 550px;
+    height: 4.5rem;
+    margin-left: 205px;
+    font-size: 2.3rem;
+}
+
+.container-crear {
+    margin-left: 240px;
+}

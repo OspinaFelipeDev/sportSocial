@@ -1,0 +1,94 @@
+:root {
+    --color-gray: #969BAB;
+    --color-secondary: #18191F;
+    --color-accent: #e74c3c; /* Rojo */
+    --color-white: white; /* Gris claro */
+    --color-blue: #1947E5;
+    --color-blue-light: #2CC8F9;
+    --color-blue-join: #D6FCF7;
+    --color-orange: #F95A2C;
+    --color-pink: #FF89BB
+}
+
+.container-name {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Distribuye los elementos en la línea */
+    width: 100%;
+    padding: 10px 15px;
+    background-color: var(--color-background); /* Ajusta el color de fondo según tu diseño */
+}
+
+.icono-volver {
+    font-size: 5rem;
+    color: var(--color-secondary);
+    cursor: pointer;
+}
+
+#deporte-seleccionado {
+    font-size: 5rem;
+    font-weight: 600;
+    text-align: center; /* Asegura que se vea centrado */
+    flex-grow: 1; /* Permite que el texto tome el espacio disponible */
+}
+
+.chat-icon-container img {
+    width: 55px;
+    height: 55px;
+}
+
+.event-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra los elementos horizontalmente */
+    justify-content: center; /* Asegura que estén alineados verticalmente */
+    text-align: center;
+    gap: 5px; /* Espacio entre cada `<p>` */
+    padding: 10px 0;
+    font-size: 2.3rem;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columnas */
+    gap: 15px; /* Espacio entre botones */
+    max-width: 600px; /* Ajusta el ancho máximo */
+    margin: 0 auto; /* Centra el contenido */
+    padding: 0 20px; /* Agrega espacio a los lados */
+    margin-top: 3rem;
+}
+
+
+main button {
+    font-size: 1.7rem;
+    padding: 16px;
+}
+
+main a button {
+    width: 100%; /* Ocupa todo el ancho del contenedor */
+    max-width: 280px; /* Define un ancho máximo */
+    height: 70px; /* Aumenta la altura */
+    font-size: 1.8rem; /* Ajusta el tamaño del texto */
+}
+
+footer {
+    padding: 25px;
+    gap: 15px;
+    margin-top: -1rem;
+}
+
+footer a {
+    max-width: 30rem;
+}
+
+footer button {
+    height: 5rem;
+    font-size: 1.7rem;
+}
+
+footer p {
+    font-size: 1.1rem;
+    max-width: 300px;
+}
+
+

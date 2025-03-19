@@ -1,0 +1,65 @@
+:root {
+    --color-gray: #969BAB;
+    --color-secondary: #18191F;
+    --color-accent: #e74c3c; /* Rojo */
+    --color-white: white; /* Gris claro */
+    --color-blue: #1947E5;
+    --color-blue-light: #2CC8F9;
+    --color-blue-join: #D6FCF7;
+    --color-orange: #F95A2C;
+    --color-pink: #FF89BB;
+    --color-yellow: #FFBD12;
+}
+
+header h1 {
+    margin-top: 37px;
+    margin-left: 180px;
+    margin-bottom: 33px;
+    font-size: 4rem;
+}
+
+.profile-container {
+    width: 130px;
+    height: 130px;
+    margin-left: 310px;
+}
+
+.camera-icon {
+    bottom: 5px;
+    right: 45px;
+    font-size: 2rem;
+}
+
+header h2 {
+    font-size: 2.3rem;
+    font-weight: 400;
+    margin-top: 30px;
+    margin-left: 270px;
+    margin-bottom: 40px;
+}
+
+.input-box {
+    position: relative;
+    display: flex;
+    align-items: center;
+    border: 2px solid var(--color-secondary);
+    padding: 8px;
+    border-radius: 8px; /* Bordes redondeados opcionales */
+    background-color: #fff;
+    width: 470px; /* Ancho fijo */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Sombra opcional */
+    margin-left: 135px;
+    border-bottom: 4px solid black;
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.input-box textarea {
+    min-height: 120px; /* Altura mínima para que sea cómodo escribir */
+}
+
+footer button {
+    width: 25rem;
+    margin-left: 247px;
+    margin-top: 30px;
+}

@@ -1,0 +1,40 @@
+:root {
+    --color-gray: #969BAB;
+    --color-secondary: #18191F;
+    --color-accent: #e74c3c;
+    --color-white: white;
+    --color-blue: #1947E5;
+    --color-blue-light: #2CC8F9;
+    --color-blue-join: #D6FCF7;
+    --color-orange: #F95A2C;
+    --color-pink: #FF89BB;
+    --color-hover: #a2203d;
+    --color-back: #FFBD12
+}
+
+.container-name {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Distribuye los elementos en la línea */
+    width: 100%;
+    padding: 10px 15px;
+    background-color: var(--color-background); /* Ajusta el color de fondo según tu diseño */
+}
+
+.icono-volver {
+    font-size: 5rem;
+    color: var(--color-secondary);
+    cursor: pointer;
+}
+
+#deporte-seleccionado {
+    font-size: 5rem;
+    font-weight: 600;
+    text-align: center; /* Asegura que se vea centrado */
+    flex-grow: 1; /* Permite que el texto tome el espacio disponible */
+}
+
+.chat-icon-container img {
+    width: 55px;
+    height: 55px;
+}

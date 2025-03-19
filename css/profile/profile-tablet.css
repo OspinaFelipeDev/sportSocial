@@ -1,0 +1,123 @@
+:root {
+    --color-gray: #969BAB;
+    --color-secondary: #18191F;
+    --color-accent: #e74c3c; /* Rojo */
+    --color-white: white; /* Gris claro */
+    --color-blue: #1947E5;
+    --color-blue-light: #2CC8F9;
+    --color-orange: #F95A2C;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Montserrat', sans-serif;
+    background-color: var(--color-orange);
+}
+
+/* Header */
+.header-container {
+    display: flex;
+    position: relative; /* Para que los iconos se posicionen respecto a este contenedor */
+    align-items: center; /* Para centrar verticalmente */
+    justify-content: center; /* Opcional: Ajusta según diseño */
+    margin-top: 20px;
+    background-color: var(--color-orange);
+}
+
+.header-container img {
+    height: 35rem;
+    width: 30rem;
+}
+
+.icono-salida, .icono-editar {
+    font-size: 5rem;
+    position: absolute;
+}
+
+.icono-salida {
+    left: 20px; /* Ajusta según diseño */
+    top: 20px;
+    color: #3b82f6;
+}
+
+.icono-editar {
+    right: 20px; /* Ajusta según diseño */
+    top: 20px;
+    color: var(--color-secondary);
+}
+
+main {
+    background-color: var(--color-white);
+    border-top: 4px solid black;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    padding: 20px;
+}
+
+.linea-negra {
+    border: none;
+    border-top: 4px solid black;
+    width: 50%;
+    margin: 10px auto;
+}
+
+main h1 {
+    color: var(--color-blue-light);
+    font-size: 2.8rem;
+    text-align: center;
+}
+
+.container-name {
+    text-align: center;
+    margin: 10px 0;
+}
+
+.container-name h2 {
+    font-size: 3rem;
+}
+
+.container-name h3 {
+    color: var(--color-blue-light);
+    font-size: 2.8rem;
+}
+
+main p {
+    font-size: 2rem;
+    text-align: center;
+    max-width: 90%;
+    margin: 0 auto 10px;
+}
+
+main h4 {
+    color: var(--color-blue-light);
+    font-size: 2.5rem;
+    text-align: center;
+    font-weight: 900;
+    margin-bottom: 4rem;
+}
+
+main button {
+    background-color: var(--color-orange);
+    color: var(--color-white);
+    width: 100%;
+    max-width: 250px;
+    height: 50px;
+    font-weight: 600;
+    font-size: 1.8rem;
+    border-radius: 10px;
+    border: none;
+    display: block;
+    margin: 19px auto;
+    margin-bottom: 2.7rem;
+}
+
+main button:hover {
+    background-color: var(--color-blue-light);
+}
+

@@ -1,0 +1,105 @@
+:root {
+    --color-gray: #969BAB;
+    --color-secondary: #18191F;
+    --color-accent: #e74c3c; /* Rojo */
+    --color-white: white; /* Gris claro */
+    --color-blue: #1947E5;
+    --color-blue-light: #2CC8F9;
+    --color-blue-join: #D6FCF7;
+    --color-orange: #F95A2C;
+    --color-pink: #FF89BB
+}
+
+.container-header {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    position: relative; /* Permite posicionar elementos hijos */
+    padding: 1.5rem;
+}
+
+.icono-volver {
+    font-size: 3.8rem;
+    color: var(--color-secondary);
+    margin-left: 16rem;
+}
+
+h1 {
+    font-size: 4rem;
+    color: var(--color-secondary);
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+main {
+    padding: 2rem;
+}
+
+.container-create,
+.container-join {
+    background-color: var(--color-white);
+    padding: 2rem;
+    border-radius: 10px;
+    border: 2px solid var(--color-secondary);
+    text-align: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+    margin: 0 15rem 2rem 15rem;
+}
+
+.container-create {
+    background: var(--color-pink);
+}
+
+.container-join {
+    background: var(--color-blue-join);
+}
+
+.container-create h2,
+.container-join h2 {
+    font-size: 2rem;
+    color: var(--color-secondary);
+    margin-bottom: 1rem;
+}
+
+.container-create p,
+.container-join p {
+    font-size: 1.8rem;
+    color: var(--color-secondary);
+    margin-bottom: 1.5rem;
+    text-align: justify;  /* Justifica el texto */
+    max-width: 90%;       /* Ajusta el ancho del texto */
+    margin: 0 auto 1.5rem; /* Centra horizontalmente y mantiene margen inferior */
+}
+
+.container-create div,
+.container-join div {
+    display: flex;
+    align-items: center;  /* Alinea verticalmente */
+    justify-content: center;  /* Centra horizontalmente */
+    gap: 1rem;  /* Espaciado entre la imagen y el icono */
+    width: 100%;  /* Ocupar todo el ancho disponible */
+}
+
+.container-create img,
+.container-join img {
+    max-width: 15%;  /* Hace la imagen responsive */
+    height: auto;
+    display: block;
+}
+
+.container-create .icono-go {
+    color: var(--color-accent);
+}
+
+.icono-go {
+    font-size: 4rem;
+    color: var(--color-blue-light);
+    margin-top: 4.5rem;
+    margin-left: 2rem;
+}
+
+
+
+

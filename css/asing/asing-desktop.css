@@ -1,0 +1,79 @@
+.container-name {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 10px 15px;
+    margin-bottom: -1rem;
+}
+
+.icono-volver {
+    font-size: 4.5rem; /* Tamaño adecuado */
+    color: var(--color-secondary);
+}
+
+#deporte-seleccionado {
+    font-size: 3.7rem;
+}
+
+.chat-icon-container img {
+    width: 50px; /* Ajusta el tamaño del icono */
+    height: auto;
+}
+
+main {
+    height: 80vh; /* Aumentar la altura si es necesario */
+    background-size: 60% 90%;
+}
+
+.player {
+    font-size: 2.5rem;
+}
+
+.dropdown-btn {
+    font-size: 2.3rem;
+}
+
+/* Posiciones adaptadas */
+.blue-position-1 { top: 12.7%; left: 50%; }
+.blue-position-2 { top: 20%; left: 37%; }
+.blue-position-3 { top: 20%; left: 65%; }
+.blue-position-4 { top: 20%; left: 23%; }
+.blue-position-5 { top: 20%; left: 78%; }
+.blue-position-6 { top: 28%; left: 30%; }
+.blue-position-7 { top: 28%; left: 50%; }
+.blue-position-8 { top: 28%; left: 72%; }
+.blue-position-9 { top: 40%; left: 30%; }
+.blue-position-10 { top: 40%; left: 50%; }
+.blue-position-11 { top: 40%; left: 72%; }
+
+.red-position-1 { top: 87.5%; left: 50%; }
+.red-position-2 { top: 80%; left: 37%; }
+.red-position-3 { top: 80%; left: 65%; }
+.red-position-4 { top: 80%; left: 23%; }
+.red-position-5 { top: 80%; left: 78%; }
+.red-position-6 { top: 72%; left: 30%; }
+.red-position-7 { top: 72%; left: 50%; }
+.red-position-8 { top: 72%; left: 72%; }
+.red-position-9 { top: 60%; left: 30%; }
+.red-position-10 { top: 60%; left: 50%; }
+.red-position-11 { top: 60%; left: 72%; }
+
+footer button {
+    background-color: var(--color-orange);
+    color: var(--color-white);
+    width: 27rem;
+    height: 5rem;
+    font-weight: 600;
+    font-size: 2.3rem;
+    border-radius: 13px;
+    border: none;
+    margin: -10px auto 0px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+

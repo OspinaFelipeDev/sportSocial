@@ -1,0 +1,163 @@
+:root {
+    --color-gray: #969BAB;
+    --color-secondary: #18191F;
+    --color-accent: #e74c3c;
+    --color-white: white;
+    --color-blue: #1947E5;
+    --color-blue-light: #2CC8F9;
+    --color-blue-join: #D6FCF7;
+    --color-orange: #F95A2C;
+    --color-pink: #FF89BB;
+    --color-hover: #a2203d;
+    --color-back: #FFBD12
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Montserrat', sans-serif;
+    background-color: var(--color-blue-join);
+}
+
+header {
+    width: 100%;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+
+
+.container-name {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Separa los elementos */
+    position: relative; /* Para el centrado absoluto */
+}
+
+.icono-volver {
+    font-size: 24px; /* Tamaño de la flecha */
+    color: #333; /* Color de la flecha */
+}
+
+#deporte-seleccionado {
+    font-size: 2rem;
+    font-weight: bold;
+    position: absolute; 
+    left: 50%;
+    transform: translateX(-50%); /* Centra el texto */
+    white-space: nowrap; /* Evita que el texto se divida */
+}
+
+body {
+    background-color: var(--color-blue-join);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+}
+
+
+.container-name {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    max-width: 400px;
+}
+
+.icono-volver {
+    font-size: 24px;
+    color: #333;
+    margin-right: 15px;
+}
+
+#deporte-seleccionado {
+    flex-grow: 1;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px; /* Espacio entre tarjetas */
+}
+
+/* Asegura que cada tarjeta ocupe el ancho adecuado */
+.tarjeta-encuentro {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    width: 100%;
+    max-width: 400px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.tarjeta-encuentro:hover {
+    transform: scale(1.05); /* Hace que crezca un poco */
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15); /* Aumenta la sombra para dar efecto de elevación */
+}
+
+
+
+/* Columnas */
+.columna {
+    flex: 1;
+    text-align: center;
+}
+
+/* Estilos para la primera columna (Deporte y Ubicación) */
+.deporte h2 {
+    font-size: 20px;
+    margin: 0;
+    color: #333;
+}
+
+.deporte p {
+    font-size: 16px;
+    color: #666;
+}
+
+/* Estilos para la segunda columna (Hora y Flecha) */
+.hora p {
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--color-gray);
+}
+
+.boton-flecha {
+    display: inline-block;
+    text-decoration: none;
+    color: #007bff;
+    font-size: 20px;
+    transition: transform 0.2s;
+}
+
+.boton-flecha:hover {
+    transform: scale(1.2);
+}
+
+/* Estilos para la tercera columna (Imagen del balón) */
+.imagen img {
+    width: 50px;
+    height: 50px;
+}
+
+
+
+

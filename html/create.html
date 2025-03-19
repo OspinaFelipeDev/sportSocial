@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create count</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/create/create.css">
+    <link rel="stylesheet" href="../css/create/create-tablet.css" media="(min-width: 600px) and (max-width: 1024px)">
+    <link rel="stylesheet" href="../css/create/create-desktop.css" media="(min-width: 1024px)">
+</head>
+<body>
+    <header>
+        <a href="sing.html">
+            <i class="fa-solid fa-circle-arrow-left icono-volver"></i>
+        </a>
+        <img src="../assets/images/logo-sportsocial.png" alt="">
+    </header>
+    <main>
+        <form>
+            <h1>Crear Cuenta</h1>
+            <div class="input-container">
+                <i class="fas fa-user"></i>
+                <input type="text" placeholder="Nombre completo" required>
+            </div>
+            <div class="input-container">
+                <i class="fas fa-envelope"></i>
+                <input type="email" placeholder="Correo Electrónico" required>
+            </div>
+            <div class="input-container">
+                <i class="fas fa-lock"></i>
+                <input type="password" placeholder="Contraseña" required>
+            </div>
+            <div class="input-container">
+                <i class="fas fa-lock"></i>
+                <input type="password" placeholder="Repite tu contraseña" required>
+            </div>
+        </form>
+        <div class="container-terminos">
+            <label class="container">
+                <input type="checkbox">
+                <svg viewBox="0 0 64 64" height="3em" width="3em">
+                <path d="M 0 16 V 56 A 8 8 90 0 0 8 64 H 56 A 8 8 90 0 0 64 56 V 8 A 8 8 90 0 0 56 0 H 8 A 8 8 90 0 0 0 8 V 16 L 32 48 L 64 16 V 8 A 8 8 90 0 0 56 0 H 8 A 8 8 90 0 0 0 8 V 56 A 8 8 90 0 0 8 64 H 56 A 8 8 90 0 0 64 56 V 16" pathLength="575.0541381835938" class="path"></path>
+                </svg>
+            </label>
+            <div class="container-check">
+                <p>
+                    <span>Al crear una cuenta, acepto los</span>
+                    <a href="terms.html">terminos y condiciones y la politica de privacidad.</a>
+                </p>
+            </div>
+        </div>
+        <a href="complete-profile.html">
+            <button>
+                <span>Crear</span>
+            </button>
+        </a>
+    </main>
+    <footer>
+        <div class="container-crear">
+            <p>
+                <span>Ya tengo una cuenta?</span>
+                <a href="sing.html">Ingresar</a>
+            </p>
+        </div>
+    </footer>
+</body>
+</html>

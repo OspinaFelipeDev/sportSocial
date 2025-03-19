@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tareas</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/task/tasks.css">
+    <link rel="stylesheet" href="../css/task/tasks-tablet.css" media="(min-width: 600px) and (max-width: 1024px)">
+    <link rel="stylesheet" href="../css/task/tasks-desktop.css" media="(min-width: 1024px)">
+</head>
+<body>
+    <header>
+        <div class="container-name">
+            <a href="meeting.html">
+                <i class="fa-solid fa-circle-arrow-left icono-volver"></i>
+            </a>
+            <p id="deporte-seleccionado">Tareas</p>
+            <div class="chat-icon-container">
+                <a href="tu-url-de-chat.html" class="chat-link" target="_blank" aria-label="Abrir chat">
+                    <img src="../assets/images/chat.png" alt="">
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+
+        <div class="asignar-tarea">
+            <h3>Asignar Tareas</h3>
+        
+            <label for="task-select">Selecciona una tarea:</label>
+            <div class="custom-select">
+                <select id="task-select" class="task-select">
+                    <option value="" disabled selected>Elige una tarea</option>
+                    <option value="implementos">Llevar implementos deportivos</option>
+                    <option value="agua">Repartir agua</option>
+                    <option value="arbitro">Hacer de árbitro</option>
+                    <option value="anotaciones">Llevar anotaciones</option>
+                    <option value="fotografia">Tomar fotografías</option>
+                    <option value="entrenador">Apoyar como entrenador</option>
+                    <option value="equipo">Organizar equipos</option>
+                    <option value="seguridad">Encargarse de la seguridad</option>
+                </select>
+                <i class="fas fa-chevron-down task-icon"></i>
+            </div>
+        
+            <h4>Seleccionar participante:</h4>
+            <div class="custom-select">
+                <select id="participant-select" class="participant-select">
+                    <option value="" disabled selected>Selecciona un participante</option>
+                    <optgroup label="Equipo Rojo">
+                        <option value="1">Participante 1 - Número: 1 (Rojo)</option>
+                        <option value="2">Participante 2 - Número: 2 (Rojo)</option>
+                        <option value="3">Participante 3 - Número: 3 (Rojo)</option>
+                        <option value="4">Participante 4 - Número: 4 (Rojo)</option>
+                        <option value="5">Participante 5 - Número: 5 (Rojo)</option>
+                        <option value="6">Participante 6 - Número: 6 (Rojo)</option>
+                        <option value="7">Participante 7 - Número: 7 (Rojo)</option>
+                        <option value="8">Participante 8 - Número: 8 (Rojo)</option>
+                        <option value="9">Participante 9 - Número: 9 (Rojo)</option>
+                        <option value="10">Participante 10 - Número: 10 (Rojo)</option>
+                        <option value="11">Participante 11 - Número: 11 (Rojo)</option>
+                    </optgroup>
+                    <optgroup label="Equipo Azul">
+                        <option value="12">Participante 12 - Número: 1 (Azul)</option>
+                        <option value="13">Participante 13 - Número: 2 (Azul)</option>
+                        <option value="14">Participante 14 - Número: 3 (Azul)</option>
+                        <option value="15">Participante 15 - Número: 4 (Azul)</option>
+                        <option value="16">Participante 16 - Número: 5 (Azul)</option>
+                        <option value="17">Participante 17 - Número: 6 (Azul)</option>
+                        <option value="18">Participante 18 - Número: 7 (Azul)</option>
+                        <option value="19">Participante 19 - Número: 8 (Azul)</option>
+                        <option value="20">Participante 20 - Número: 9 (Azul)</option>
+                        <option value="21">Participante 21 - Número: 10 (Azul)</option>
+                        <option value="22">Participante 22 - Número: 11 (Azul)</option>
+                    </optgroup>
+                </select>
+                <i class="fas fa-chevron-down select-icon"></i>
+            </div>
+        
+            <button id="assign-task">Asignar Tarea</button>
+        </div>
+        
+        <div id="assigned-tasks">
+            <h3>Tareas Asignadas</h3>
+            <ul id="tasks-list"></ul>
+        </div>
+        
+    </main>
+
+    <script src="../js/taks.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,68 @@
+:root {
+    --color-gray: #969BAB;
+    --color-secondary: #18191F;
+    --color-red: #F95A2C; /* Rojo */
+    --color-white: white; /* Gris claro */
+    --color-blue: #1947E5;
+    --color-yellow: #FFBD12;
+}
+
+body {
+    background-color: var(--color-back);
+}
+
+
+img {
+    width: 19rem;
+    height: 19rem;
+    max-width: 300px;
+    margin-top: 8rem;
+}
+
+.container-inicio {
+    width: 50%; /* Más ancho en desktop */
+    max-width: 600px;
+    padding: 40px;
+    border-radius: 15px;
+}
+
+h1 {
+    font-size: 4rem;
+    margin-top: -3rem;
+}
+
+.input-container {
+    height: 4rem; /* Aumentamos la altura de los campos de entrada */
+    padding: 18px;
+    font-size: 2.2rem;
+}
+
+.input-container i {
+    font-size: 2rem; /* Íconos más grandes */
+}
+
+input {
+    font-size: 2rem;
+}
+
+button {
+    height: 4rem;
+    font-size: 2.2rem;
+    transition: background 0.3s ease-in-out;
+}
+
+button i {
+    font-size: 2rem;
+}
+
+button:hover {
+    background-color: var(--color-red); /* Cambia de color al pasar el mouse */
+}
+
+.container-crear {
+    margin-top: 1.5rem;
+}
+
+.container-crear p {
+    font-size: 2rem;
+}

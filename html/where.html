@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Where</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/where/where.css">
+    <link rel="stylesheet" href="../css/where/where-tablet.css" media="(min-width: 600px) and (max-width: 1024px)">
+    <link rel="stylesheet" href="../css/where/where-desktop.css" media="(min-width: 1024px)">
+</head>
+<body>
+    <header>
+            <div class="container-header">
+                <a href="choose.html">
+                <i class="fa-solid fa-circle-arrow-left icono-volver"></i>
+                </a>
+                <h1>Donde</h1>
+            </div>
+    </header>
+    <main>
+        <div class="location-container">
+            <div class="map-placeholder">
+                <img src="../assets/images/ubication.jpeg" alt="Mapa del lugar" class="map-image">
+            </div>
+            <div class="search-box">
+                <input type="text" placeholder="Buscar lugar..." class="location-input">
+                <i class="fas fa-search search-icon"></i>
+            </div>
+        </div>
+        <h2>Hora y fecha</h2>
+        <div class="date-time-container">
+            <div class="date-picker-container">
+                <input type="date" id="event-date" class="date-input">
+            </div>
+            <div class="time-picker-container">
+                <input type="time" id="event-time" class="time-input">
+            </div>
+        </div>
+        <div>
+            <h3>Escoger deporte</h3>
+            <div class="sport-selector-container">
+                <div class="custom-select">
+                    <select id="sport-select" class="sport-select">
+                    <option value="" disabled selected>Seleccionar un deporte</option>
+                    <option value="futbol">Fútbol</option>
+                    <option value="baloncesto">Baloncesto</option>
+                    <option value="Voleiball">Voleiball</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <a href="meeting.html">
+            <button>
+                <span>Crear Evento</span>
+            </button>
+        </a>
+    </footer>
+</body>
+</html>

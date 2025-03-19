@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sing</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/sing/sing.css">
+    <link rel="stylesheet" href="../css/sing/sing-tablet.css" media="(min-width: 600px) and (max-width: 1024px)">
+    <link rel="stylesheet" href="../css/sing/sing-desktop.css" media="(min-width: 1024px)">
+</head>
+<body>
+
+    <img src="../assets/images/logo-sportsocial.png" alt="Logo de SportSocial">
+    <div class="container-inicio">
+        <h1>Acceder</h1>
+        
+        <!-- Formulario de inicio de sesión -->
+        <form id="login-form">
+            <div class="input-container">
+                <i class="fas fa-envelope"></i>
+                <input type="email" id="email" name="email" placeholder="Ingresa tu correo" required>
+            </div>
+            <div class="input-container">
+                <i class="fas fa-lock"></i>
+                <input type="password" id="password" name="password" placeholder="Ingresa tu contraseña" required>
+            </div>
+            <button type="submit">
+                <span>Iniciar Sesión</span>
+                <i class="fa-solid fa-chevron-right"></i>
+            </button>
+        </form>
+
+        <!-- Enlace para crear una cuenta -->
+        <div class="container-crear">
+            <p>
+                <span>¿Eres nuevo(a)?</span>
+                <a href="create.html">Crear Cuenta</a>
+            </p>
+        </div>
+    </div>
+
+        <!-- Script para manejar el formulario con JavaScript -->
+    <script src="../js/sing.js"></script>
+
+</body>
+</html>

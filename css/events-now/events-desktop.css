@@ -1,0 +1,26 @@
+#deporte-seleccionado {
+    flex-grow: 1;
+    text-align: center;
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-top: 3rem;
+}
+
+.icono-volver {
+    font-size: 3rem; /* Tamaño de la flecha */
+    color: #333; /* Color de la flecha */
+    margin-top: 3.3rem;
+    margin-left: -11rem;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columnas */
+    gap: 15px;
+    margin-top: 3rem;
+}
+
+.tarjeta-encuentro {
+    width: 100%; /* Se adaptan al grid */
+}

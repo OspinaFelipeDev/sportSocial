@@ -1,0 +1,38 @@
+:root {
+    --color-gray: #969BAB;
+    --color-secondary: #18191F;
+    --color-accent: #e74c3c;
+    --color-white: white;
+    --color-blue: #1947E5;
+    --color-blue-light: #2CC8F9;
+    --color-blue-join: #D6FCF7;
+    --color-orange: #F95A2C;
+    --color-pink: #FF89BB;
+    --color-hover: #a2203d;
+    --color-back: #FFBD12
+}
+
+#deporte-seleccionado {
+    flex-grow: 1;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-top: 2rem;
+}
+
+.icono-volver {
+    font-size: 2.5rem; /* Tamaño de la flecha */
+    color: #333; /* Color de la flecha */
+    margin-top: 2rem;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columnas */
+    gap: 15px;
+}
+
+.tarjeta-encuentro {
+    width: 100%; /* Se adaptan al grid */
+}

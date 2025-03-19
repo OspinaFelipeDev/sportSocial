@@ -1,0 +1,25 @@
+.container-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* Centra el h1 */
+    text-align: center;
+    /* Asegura que el texto dentro también esté centrado */
+    gap: 1rem;
+    /* Espaciado entre elementos */
+}
+
+.container-header h1 {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.icono-volver {
+    font-size: 3rem;
+}
+
+main p {
+    max-width: 80%;
+    font-size: 1.8rem;
+}

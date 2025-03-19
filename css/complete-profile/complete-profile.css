@@ -1,0 +1,149 @@
+:root {
+    --color-gray: #969BAB;
+    --color-secondary: #18191F;
+    --color-accent: #e74c3c; /* Rojo */
+    --color-white: white; /* Gris claro */
+    --color-blue: #1947E5;
+    --color-blue-light: #2CC8F9;
+    --color-blue-join: #D6FCF7;
+    --color-orange: #F95A2C;
+    --color-pink: #FF89BB;
+    --color-yellow: #FFBD12;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header h1 {
+    margin-top: 17px;
+    margin-left: 55px;
+    margin-bottom: 33px;
+    font-size: 2.4rem;
+}
+
+/* Estilo del cuadro */
+.profile-container {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    margin-left: 110px;
+    border: 2px solid black; /* Borde negro en todos los lados */
+
+}
+
+/* Estilo de la imagen de perfil */
+.profile-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Estilo del icono de cámara */
+.camera-icon {
+    position: absolute;
+    bottom: 5px;
+    right: 25px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 8px;
+    cursor: pointer;
+    font-size: .8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+header h2 {
+    font-size: 1.3rem;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-left: 90px;
+    margin-bottom: 40px;
+}
+
+/* Contenedor principal para el campo de residencia */
+.input-box {
+    position: relative;
+    display: flex;
+    align-items: center;
+    border: 2px solid var(--color-secondary);
+    padding: 8px;
+    border-radius: 8px; /* Bordes redondeados opcionales */
+    background-color: #fff;
+    width: 270px; /* Ancho fijo */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Sombra opcional */
+    margin-left: 25px;
+    border-bottom: 4px solid black;
+}
+
+
+/* Estilo del icono */
+.input-box i {
+    font-size: 1.8rem;
+    color: var(--color-secondary);
+    margin-right: 8px;
+}
+
+/* Estilo del campo de entrada */
+.input-box input {
+    border: none;
+    outline: none;
+    font-size: 1.3rem;
+    width: 100%;
+    background: none;
+}
+
+.input-box {
+    position: relative;
+    margin-bottom: 25px;
+}
+
+.input-box textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1.3rem;
+    min-height: 150px; /* Altura mínima para que sea cómodo escribir */
+    resize: vertical; /* Permite redimensionar el área de texto solo verticalmente */
+}
+
+footer button {
+    background-color: var(--color-yellow);
+    color: var(--color-white);
+    width: 20rem;
+    height: 4rem;
+    font-weight: 600;
+    font-size: 1.5rem;
+    border-radius: 13px;
+    margin-left: 58px;
+    margin-bottom: 15px;
+    border: 2px solid black;
+    border-bottom: 4px solid black;
+    margin-top: 50px;
+}
+
+footer button:hover {
+    background-color: var(--color-blue-light);
+}
+
+footer button span {
+    color: var(--color-secondary);
+    font-weight: 800;
+}
+
+

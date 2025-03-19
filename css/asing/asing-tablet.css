@@ -1,0 +1,85 @@
+:root {
+    --color-gray: #969BAB;
+    --color-secondary: #18191F;
+    --color-accent: #e74c3c;
+    --color-white: white;
+    --color-blue: #1947E5;
+    --color-blue-light: #2CC8F9;
+    --color-blue-join: #D6FCF7;
+    --color-orange: #F95A2C;
+    --color-pink: #FF89BB;
+    --color-hover: #a2203d
+}
+
+.icono-volver {
+    font-size: 3.5rem; /* Tamaño adecuado */
+    color: var(--color-secondary);
+}
+
+#deporte-seleccionado {
+    font-size: 3.3rem;
+}
+
+main {
+    height: 80vh; /* Aumentar la altura si es necesario */
+    background-size: 70% 100%;
+}
+
+
+.chat-icon-container img {
+    width: 40px; /* Ajusta el tamaño del icono */
+    height: auto;
+}
+
+.field {
+    width: 95vw;
+    height: 85vh;
+}
+
+.player {
+    font-size: 2.5rem;
+}
+
+.dropdown-btn {
+    font-size: 2.3rem;
+}
+
+/* Posiciones adaptadas */
+.blue-position-1 { top: 8.5%; left: 50%; }
+.blue-position-2 { top: 16%; left: 37%; }
+.blue-position-3 { top: 16%; left: 65%; }
+.blue-position-4 { top: 16%; left: 23%; }
+.blue-position-5 { top: 16%; left: 78%; }
+.blue-position-6 { top: 26%; left: 30%; }
+.blue-position-7 { top: 26%; left: 50%; }
+.blue-position-8 { top: 26%; left: 72%; }
+.blue-position-9 { top: 39%; left: 30%; }
+.blue-position-10 { top: 39%; left: 50%; }
+.blue-position-11 { top: 39%; left: 72%; }
+
+.red-position-1 { top: 91.5%; left: 50%; }
+.red-position-2 { top: 83%; left: 37%; }
+.red-position-3 { top: 83%; left: 65%; }
+.red-position-4 { top: 83%; left: 23%; }
+.red-position-5 { top: 83%; left: 78%; }
+.red-position-6 { top: 74%; left: 30%; }
+.red-position-7 { top: 74%; left: 50%; }
+.red-position-8 { top: 74%; left: 72%; }
+.red-position-9 { top: 61%; left: 30%; }
+.red-position-10 { top: 61%; left: 50%; }
+.red-position-11 { top: 61%; left: 72%; }
+
+footer button {
+    background-color: var(--color-orange);
+    color: var(--color-white);
+    width: 27rem;
+    height: 5rem;
+    font-weight: 600;
+    font-size: 2.3rem;
+    border-radius: 13px; /* o 0.375rem */
+    border: none;
+    margin: 0px auto 0px auto; /* Centra horizontalmente */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

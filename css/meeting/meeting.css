@@ -1,0 +1,147 @@
+:root {
+    --color-gray: #969BAB;
+    --color-secondary: #18191F;
+    --color-accent: #e74c3c; /* Rojo */
+    --color-white: white; /* Gris claro */
+    --color-blue: #1947E5;
+    --color-blue-light: #2CC8F9;
+    --color-blue-join: #D6FCF7;
+    --color-orange: #F95A2C;
+    --color-pink: #FF89BB;
+    --color-hover: #a2203d
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Montserrat', sans-serif;
+    background-color: var(--color-pink);
+}
+
+.container-name {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Distribuye los elementos en la línea */
+    width: 100%;
+    padding: 10px 15px;
+    background-color: var(--color-background); /* Ajusta el color de fondo según tu diseño */
+}
+
+.icono-volver {
+    font-size: 3rem;
+    color: var(--color-secondary);
+    cursor: pointer;
+}
+
+#deporte-seleccionado {
+    font-size: 3rem;
+    font-weight: 600;
+    text-align: center; /* Asegura que se vea centrado */
+    flex-grow: 1; /* Permite que el texto tome el espacio disponible */
+}
+
+.chat-icon-container img {
+    width: 35px;
+    height: 35px;
+}
+
+.event-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra los elementos horizontalmente */
+    justify-content: center; /* Asegura que estén alineados verticalmente */
+    text-align: center;
+    gap: 5px; /* Espacio entre cada `<p>` */
+    padding: 10px 0;
+    font-size: 2rem;
+    color: var(--color-white);
+}
+
+.participantes {
+    text-align: center; /* Centra el texto en móviles */
+    font-size: 2.3rem; /* Tamaño de fuente base */
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+#participantes-actual {
+    color: var(--color-accent);
+}
+
+#participantes-total {
+    color: var(--color-white);
+}
+
+main {
+    display: flex;
+    flex-direction: column; /* Apila los botones en columna */
+    align-items: center; /* Centra los botones horizontalmente */
+    gap: 10px; /* Espacio entre botones */
+    margin-top: 40px;
+}
+
+main a {
+    width: 100%;
+    max-width: 300px; /* Limita el ancho de los botones */
+}
+
+main button {
+    width: 100%;
+    height: 6rem;
+    padding: 12px;
+    font-size: 1.8rem;
+    font-weight: 600;
+    background-color: var(--color-orange);
+    color: var(--color-white);
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 1rem;
+}
+
+main button:hover {
+    background-color: var(--color-hover);
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 15px;
+    gap: 10px; /* Espacio entre el botón y el texto */
+    margin-top: 4rem;
+}
+
+footer a {
+    width: 100%;
+    max-width: 27rem;
+}
+
+footer button {
+    background-color: #892D12;
+    color: var(--color-white);
+    width: 100%;
+    height: 6rem;
+    font-weight: 600;
+    font-size: 1.9rem;
+    border-radius: 13px;
+    border: none;
+}
+
+footer button:hover {
+    background-color: var(--color-hover);
+}
+
+footer p {
+    color: var(--color-white);
+    max-width: 250px;
+    font-size: 1.3rem;
+    margin-top: 2rem;
+}

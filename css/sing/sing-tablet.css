@@ -1,0 +1,64 @@
+:root {
+    --color-gray: #969BAB;
+    --color-secondary: #18191F;
+    --color-red: #F95A2C; /* Rojo */
+    --color-white: white; /* Gris claro */
+    --color-blue: #1947E5;
+    --color-yellow: #FFBD12;
+}
+
+body {
+    height: 100vh;
+    justify-content: center;
+    background-color: var(--color-back);
+}
+
+img {
+    width: 50%;
+    max-width: 250px; /* Ajustamos el tamaño de la imagen */
+}
+
+.container-inicio {
+    width: 70%; /* Más ancho en tablet */
+    max-width: 500px;
+    padding: 30px;
+    border-radius: 12px;
+}
+
+h1 {
+    font-size: 5rem; /* Hacemos el título más grande */
+}
+
+.input-container {
+    height: 6rem; /* Aumentamos la altura de los campos de entrada */
+    padding: 15px;
+    font-size: 2rem;
+}
+
+.input-container i {
+    font-size: 1.8rem; /* Íconos más grandes */
+}
+
+input {
+    font-size: 1.8rem;
+}
+
+button {
+    height: 6rem;
+    font-size: 2rem;
+}
+
+button i {
+    font-size: 1.8rem;
+}
+
+.container-crear {
+    margin-top: 6rem;
+}
+
+.container-crear p {
+    font-size: 1.8rem;
+}
+}
+
+

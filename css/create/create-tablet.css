@@ -1,0 +1,71 @@
+:root {
+    --color-gray: #969BAB;
+    --color-secondary: #18191F;
+    --color-accent: #e74c3c; /* Rojo */
+    --color-white: white; /* Gris claro */
+    --color-blue: #1947E5;
+    --color-blue-light: #2CC8F9;
+    --color-blue-join: #D6FCF7;
+    --color-orange: #F95A2C;
+    --color-pink: #FF89BB;
+    --color-yellow: #FFBD12;
+}
+
+/* Ajuste del ícono de volver */
+.icono-volver {
+    left: 5rem; /* Lo posiciona a la izquierda */
+    font-size: 4rem; /* Ajusta el tamaño */
+}
+
+form h1 {
+    margin-bottom: 2rem;
+    font-size: 4.2rem;
+    margin-left: 20.4rem;
+}
+
+.input-container input {
+    width: 450px;
+    height: 4.5rem;
+    padding: 10px 10px 10px 70px;
+    font-size: 1.7rem;
+    border: 1.5px solid var(--color-secondary);
+    border-radius: 0.8rem;
+    margin-left: 130px;
+}
+
+.input-container i {
+    position: absolute;
+    left: 150px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--color-secondary);
+    font-size: 2rem;
+}
+
+.container-check {
+    font-weight: 800;
+    font-size: 1.3rem;
+    width: 57%;
+}
+
+.container svg {
+    overflow: visible;
+    margin-left: 130px;
+}
+
+.container-check p {
+    margin-left: 20px;
+    margin-top: -2px;
+}
+
+main button {
+    width: 450px;
+    height: 4.5rem;
+    margin-left: 130px;
+}
+
+.container-crear {
+    margin-left: 160px;
+    font-size: 2rem;
+    margin-top: 20px;
+}

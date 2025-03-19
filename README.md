@@ -12,10 +12,6 @@ SportSocial es una plataforma diseñada para ayudar a los amantes del deporte a 
 Vista moderna y comoda para llenar los datos
 ![Completar perfil](./assets/images/complete-capture.png)
 
-### 🏌️‍♀️ Detalles de los jugadores:
-Descubre los perfiles de todos los personajes:
-![Detalles de los personajes](assets/img/otros/Captura_player.png)
-
 ### 🗓️ Confirmación del evento
 Vista de la pantalla del evento
 ![Evento deportivo](./assets/images/ficha-capture.png)

@@ -106,3 +106,23 @@ button {
     color: var(--color-white); /* Asegura que la "X" sea visible */
     cursor: pointer;
 }
+
+footer {
+    padding: 25px;
+    gap: 15px;
+    margin-top: -1rem;
+}
+
+footer a {
+    max-width: 30rem;
+}
+
+footer button {
+    height: 5rem;
+    font-size: 1.7rem;
+}
+
+footer p {
+    font-size: 1.1rem;
+    max-width: 300px;
+}

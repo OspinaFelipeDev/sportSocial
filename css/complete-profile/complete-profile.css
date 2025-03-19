@@ -22,119 +22,118 @@ html {
     font-family: 'Montserrat', sans-serif;
 }
 
-header h1 {
-    margin-top: 17px;
-    margin-left: 55px;
-    margin-bottom: 33px;
-    font-size: 2.4rem;
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    margin-bottom: -2rem;
 }
 
-/* Estilo del cuadro */
+/* Contenedor de la imagen de perfil */
 .profile-container {
     position: relative;
-    width: 80px;
-    height: 80px;
-    overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 25px;
-    margin-left: 110px;
-    border: 2px solid black; /* Borde negro en todos los lados */
-
+    margin: 20px 0;
 }
 
-/* Estilo de la imagen de perfil */
+/* Imagen de perfil */
 .profile-image {
-    width: 100%;
-    height: 100%;
+    width: 150px;
+    height: 150px;
     object-fit: cover;
+    border: 3px solid var(--color-secondary);
+    border-radius: 2rem;
 }
 
-/* Estilo del icono de cámara */
+/* Icono de cámara */
 .camera-icon {
     position: absolute;
     bottom: 5px;
-    right: 25px;
-    background-color: rgba(0, 0, 0, 0.6);
+    background: rgba(0, 0, 0, 0.7);
     color: white;
-    padding: 8px;
-    cursor: pointer;
-    font-size: .8rem;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
     display: flex;
-    align-items: center;
     justify-content: center;
-    border-radius: 20px;
+    align-items: center;
+    cursor: pointer;
 }
 
-header h2 {
-    font-size: 1.3rem;
-    font-weight: 400;
-    margin-top: 10px;
-    margin-left: 90px;
-    margin-bottom: 40px;
+/* Texto */
+h1, h2 {
+    margin: 10px 0;
 }
 
-/* Contenedor principal para el campo de residencia */
+h2 {
+    font-weight: 500;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra los elementos horizontalmente */
+    justify-content: center; /* Centra los elementos verticalmente si es necesario */
+    padding: 20px;
+}
+
 .input-box {
-    position: relative;
     display: flex;
     align-items: center;
+    width: 100%;
+    max-width: 400px; /* Ajusta el ancho máximo */
+    background: #fff;
+    padding: 10px;
+    border-radius: 10px;
     border: 2px solid var(--color-secondary);
-    padding: 8px;
-    border-radius: 8px; /* Bordes redondeados opcionales */
-    background-color: #fff;
-    width: 270px; /* Ancho fijo */
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Sombra opcional */
-    margin-left: 25px;
-    border-bottom: 4px solid black;
+    border-bottom: 5px solid var(--color-secondary);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;
 }
 
-
-/* Estilo del icono */
 .input-box i {
-    font-size: 1.8rem;
-    color: var(--color-secondary);
-    margin-right: 8px;
+    margin-right: 10px;
+    color: #333;
 }
 
-/* Estilo del campo de entrada */
-.input-box input {
+.input-box input,
+.input-box textarea {
+    flex: 1;
     border: none;
     outline: none;
-    font-size: 1.3rem;
+    font-size: 16px;
     width: 100%;
-    background: none;
-}
-
-.input-box {
-    position: relative;
-    margin-bottom: 25px;
+    padding: 8px;
 }
 
 .input-box textarea {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    font-size: 1.3rem;
-    min-height: 150px; /* Altura mínima para que sea cómodo escribir */
-    resize: vertical; /* Permite redimensionar el área de texto solo verticalmente */
+    resize: none;
+    height: 100px; /* Altura para la descripción */
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
 }
 
 footer button {
     background-color: var(--color-yellow);
     color: var(--color-white);
     width: 20rem;
-    height: 4rem;
+    height: 4.5rem;
     font-weight: 600;
     font-size: 1.5rem;
     border-radius: 13px;
-    margin-left: 58px;
-    margin-bottom: 15px;
     border: 2px solid black;
     border-bottom: 4px solid black;
-    margin-top: 50px;
 }
 
 footer button:hover {

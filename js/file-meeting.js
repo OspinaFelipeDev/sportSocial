@@ -1,7 +1,7 @@
  // Datos simulados (reemplaza esto con datos de la base de datos)
 const equipoAzul = [
-    { nombre: "Carlos Pérez", oficio: "Portero", posicion: "Arquero", foto: "../assets/images/profile.jpg" },
-    { nombre: "Andrés López", oficio: "Defensa", posicion: "Central", foto: "../assets/images/profile.jpg" },
+    { nombre: "Carlos Pérez", oficio: "LLevar mallas", posicion: "Arquero", foto: "../assets/images/profile.jpg" },
+    { nombre: "Andrés López", oficio: "Prender luces", posicion: "Central", foto: "../assets/images/profile.jpg" },
     { nombre: "Fernando Ruiz", oficio: "Defensa", posicion: "Lateral", foto: "../assets/images/profile.jpg" },
     { nombre: "Gabriel Mendoza", oficio: "Defensa", posicion: "Lateral", foto: "../assets/images/profile.jpg" },
     { nombre: "Miguel Torres", oficio: "Defensa", posicion: "Central", foto: "../assets/images/profile.jpg" },

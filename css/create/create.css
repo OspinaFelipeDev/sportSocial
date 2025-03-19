@@ -118,23 +118,37 @@ h1 {
 
 .button-container {
     display: flex;
-    justify-content: center; /* Centra horizontalmente */
-    align-items: center; /* Centra verticalmente (si es necesario) */
-    width: 100%; /* Asegura que ocupe todo el ancho disponible */
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
 }
 
+.button-container a {
+    text-decoration: none;
+}
+
+
 button {
-    padding: 1rem 2rem; /* Ajusta el tamaño del botón */
-    font-size: 1.8rem; /* Tamaño del texto */
-    font-weight: 900;
+    padding: 10px 20px;
+    background: var(--color-yellow);
+    color: var(--color-secondary);
+    border: none;
     border-radius: 10px;
+    cursor: pointer;
+    font-size: 2rem;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25rem;
+    height: 5rem;
     border: 2px solid var(--color-secondary);
     border-bottom: 4px solid var(--color-secondary);
-    background-color: var(--color-yellow);
-    color: var(--color-secondary);
-    cursor: pointer;
-    width: 26rem;
-    height: 5rem;
+}
+
+button:hover {
+    background: var(--color-accent);
 }
 
 /* Código inicial */
@@ -169,18 +183,45 @@ button {
 }
 
 .container-check {
-    font-weight: 800;
-    font-size: 1.3rem;
-    width: 80%;
+    max-width: 300px;
+}
+
+.container-check p {
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--color-secondary);
+}
+
+.container-check a {
+    color: #007bff;
+    font-weight: bold;
+}
+
+footer {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente si el footer tiene altura */
+    text-align: center; /* Asegura que el texto dentro esté centrado */
+    padding: 20px;
+    width: 100%;
+}
+
+.container-crear {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .container-crear p {
-    font-weight: 400;
+    font-size: 16px;
+    color: #333;
 }
 
 .container-crear a {
-    color: var(--color-accent);
-    font-weight: 700;
     text-decoration: none;
+    color: var(--color-accent);
+    font-weight: bold;
+    margin-left: 5px;
 }
+
 

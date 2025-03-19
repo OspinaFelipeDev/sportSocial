@@ -38,11 +38,16 @@ document.addEventListener("DOMContentLoaded", function () {
         if (selectedCheckbox) {
             // Obtiene el número de la posición seleccionada
             const playerNumber = selectedCheckbox.parentElement.querySelector("span").textContent;
-            
+
+            // Simulación de un nombre de usuario (deberías obtenerlo desde un formulario de inicio de sesión)
+            const userName = "Usuario123"; // Puedes cambiar esto por una entrada dinámica
+
             // Guarda la selección en localStorage
             localStorage.setItem("selectedPlayer", playerNumber);
-            
-            alert("Elegiste la posición: " + playerNumber);
+            localStorage.setItem("userName", userName);
+
+            // Redirigir a la nueva pantalla
+            window.location.href = "../html/booking.html";
         } else {
             alert("No has seleccionado ninguna posición.");
         }

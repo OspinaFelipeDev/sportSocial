@@ -7,5 +7,11 @@ document.getElementById("login-form").addEventListener("submit", function(event)
     console.log("Correo:", email);
     console.log("Contraseña:", password);
 
-    // Aquí pODREMOS enviar los datos a una API con fetch()
+    // Simular autenticación (puedes cambiar esto con una validación real)
+    if (email && password) { 
+        // Redirigir a la pantalla de perfil
+        window.location.href = "profile.html";
+    } else {
+        alert("Por favor, ingresa un correo y una contraseña válidos.");
+    }
 });

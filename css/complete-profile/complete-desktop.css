@@ -11,27 +11,57 @@
     --color-yellow: #FFBD12;
 }
 
-header h1 {
-    margin-top: 37px;
-    margin-left: 320px;
-    margin-bottom: 33px;
-    font-size: 4rem;
+.profile-image {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 3px solid var(--color-secondary);
+    border-radius: 2rem;
 }
 
-.profile-container {
-    margin-left: 440px;
+header {
+    margin-top: -2rem;
 }
 
-header h2 {
-    margin-left: 398px;
+.profile-image {
+    width: 100px;
+    height: 100px;
+}
+
+.camera-icon {
+    width: 30px;
+    height: 30px;
+}
+
+h1 {
+    margin-bottom: -1rem;
+}
+
+h2 {
+    margin-top: -1rem;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin-bottom: -1rem;
 }
 
 .input-box {
-    margin-left: 270px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 400px;
+    background: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid var(--color-secondary);
+    border-bottom: 5px solid var(--color-secondary);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 0.5rem;
 }
 
-footer button {
-    width: 25rem;
-    margin-left: 377px;
-    margin-top: 30px;
-}
+

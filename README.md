@@ -14,7 +14,7 @@ Vista moderna y comoda para llenar los datos
 
 ### 🗓️ Confirmación del evento
 Vista de la pantalla del evento
-![Evento deportivo](./assets/images/ficha-capture.png)
+![Evento deportivo](./assets/images/profile.jpg)
 
 ## 🎯 Características Principales
 
